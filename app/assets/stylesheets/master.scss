@@ -1,0 +1,27 @@
+@import "bootstrap";
+
+
+.clear {
+  clear: both;
+} 
+
+body {
+	backgound-color: #F5A65B;
+}
+
+.h1 {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 600;
+	letter-spacing: -1.5px;
+	font-color: #53A7F0;
+}
+
+.headline {
+	font-weight: bold;
+    font-style: italic;
+    position: relative;
+    text-align: center;
+    color: #53A7F0;
+    font-size: 20px;
+    line-height: 16px;
+}
