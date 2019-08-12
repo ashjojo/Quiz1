@@ -16,7 +16,9 @@ ActiveRecord::Schema.define(version: 2019_08_03_002751) do
   enable_extension "plpgsql"
 
   create_table "headlines", force: :cascade do |t|
-    t.string "headline"
+    t.string "main"
+    t.string "line"
+    t.string "byline"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
